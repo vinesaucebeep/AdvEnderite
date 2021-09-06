@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GPLv3"
+
+[[mods]] #mandatory
+modId="advenderite"
+version="1.0.0"
+displayName="Advanced Enderite"
+authors="beep67"
+description='''
+    An addon to the Advanced Netherite Mod by Autovw, adds in new tiers of enderite from my End Mod,
+
+    CREDITS: spare_uranium, Autovw
+'''
+[[dependencies.advenderite]] #optional
+   modId="forge" #mandatory
+   mandatory=true #mandatory
+   versionRange="[36,)" #mandatory
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.advenderite]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.advenderite]]
+    modId="advancednetherite"
+    mandatory=true
+    versionRange="[1.7.0,)"
+    ordering="NONE"
+    side="BOTH"
+

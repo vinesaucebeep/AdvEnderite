@@ -1,4 +1,24 @@
 {
   "block.advenderite.enderite_iron_block": "Block of Enderite/Iron",
+
+  "block.advenderite.enderite_gold_block": "Block of Enderite/Gold",
+
+  "item.advenderite.enderite_iron_helmet": "Enderite/Iron Helmet",
+  "item.advenderite.enderite_iron_chestplate": "Enderite/Iron Chestplte",
+  "item.advenderite.enderite_iron_leggings": "Enderite/Iron Leggings",
+  "item.advenderite.enderite_iron_boots": "Enderite/Iron Boots",
+  "item.advenderite.enderite_iron_ingot": "Enderite/Iron Ingot",
+
+  "item.advenderite.enderite_gold_helmet": "Enderite/Gold Helmet",
+  "item.advenderite.enderite_gold_chestplate": "Enderite/Gold Chestplte",
+  "item.advenderite.enderite_gold_leggings": "Enderite/Gold Leggings",
+  "item.advenderite.enderite_gold_boots": "Enderite/Gold Boots",
+  "item.advenderite.enderite_gold_ingot": "Enderite/Gold Ingot",
+
+  "item.advenderite.enderite_emerald_helmet": "Enderite/Emerald Helmet",
+  "item.advenderite.enderite_emerald_chestplate": "Enderite/Emerald Chestplate",
+  "item.advenderite.enderite_emerald_leggings": "Enderite/Emerald Leggings",
+  "item.advenderite.enderite_emerald_boots": "Enderite/Emerald Boots",
+
   "itemGroup.advenderite": "Advanced Enderite"
 }

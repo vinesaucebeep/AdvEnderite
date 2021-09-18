@@ -2,6 +2,7 @@ package com.beep67.advenderite;
 
 import com.beep67.advenderite.core.BlockRegistry;
 import com.beep67.advenderite.core.ItemRegistry;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -12,6 +13,8 @@ import org.apache.logging.log4j.Logger;
 public class AdvEnderite {
 
     public static final String MOD_ID = "advenderite";
+    public static final ItemGroup TAB_ADVANCED_ENDERITE = new CreativeTab("advancedenderite_tab");
+
 
     private static final Logger LOGGER = LogManager.getLogger();
 

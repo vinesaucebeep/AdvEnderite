@@ -14,8 +14,12 @@ import net.minecraftforge.fml.RegistryObject;
 
 public enum EnderiteArmorTiers implements IArmorMaterial {
 
-    ENDERITE_IRON("enderite_iron", 39, new int[] { 4, 6, 8, 4 }, 15, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            3.5F, 0.1F, ItemRegistry.ENDERITE_IRON_INGOT);
+    ENDERITE_IRON("enderite_iron", 41, new int[] { 4, 6, 8, 4 }, 25, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.5F, 0.1F, ItemRegistry.ENDERITE_IRON_INGOT),
+    ENDERITE_GOLD("enderite_gold", 43, new int[] { 4, 7, 9, 4 }, 35, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.5F, 0.1F, ItemRegistry.ENDERITE_GOLD_INGOT),
+    ENDERITE_EMERALD("enderite_emerald", 45, new int[] { 4, 8, 10, 5 }, 45, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3.6f, 0.1F, ItemRegistry.ENDERITE_EMERALD_INGOT);
 
     private static final int[] HEALTH_PER_SLOT = new int[] { 15, 17, 18, 13 };
     private final String name;

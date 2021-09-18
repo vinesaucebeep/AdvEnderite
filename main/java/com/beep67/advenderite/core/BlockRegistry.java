@@ -16,5 +16,7 @@ public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdvEnderite.MOD_ID);
 
     public static final RegistryObject<Block> ENDERITE_IRON_BLOCK = BLOCKS.register("enderite_iron_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).harvestLevel(4).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(55.0f, 1200f).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> ENDERITE_GOLD_BLOCK = BLOCKS.register("enderite_gold_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).harvestLevel(4).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(55.0f, 1200f).sound(SoundType.NETHERITE_BLOCK)));
+    public static final RegistryObject<Block> ENDERITE_EMERALD_BLOCK = BLOCKS.register("enderite_emerald_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).harvestLevel(5).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(57.0f, 1200f).sound(SoundType.NETHERITE_BLOCK)));
 
 }
